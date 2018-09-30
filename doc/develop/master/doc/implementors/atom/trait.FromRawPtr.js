@@ -1,0 +1,11 @@
+(function() {var implementors = {};
+implementors["atom"] = [];
+implementors["pulse"] = [{text:"impl <a class=\"trait\" href=\"atom/trait.FromRawPtr.html\" title=\"trait atom::FromRawPtr\">FromRawPtr</a> for <a class=\"struct\" href=\"pulse/struct.Pulse.html\" title=\"struct pulse::Pulse\">Pulse</a>",synthetic:false,types:["pulse::Pulse"]},{text:"impl <a class=\"trait\" href=\"atom/trait.FromRawPtr.html\" title=\"trait atom::FromRawPtr\">FromRawPtr</a> for <a class=\"struct\" href=\"pulse/struct.Signal.html\" title=\"struct pulse::Signal\">Signal</a>",synthetic:false,types:["pulse::Signal"]},];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
